@@ -98,6 +98,4 @@ app.delete("/api/menu/:id", (req, res) => {
   res.json({ ok: true });
 });
 
-app.listen(PORT, () => {
-  console.log(`Web běží na http://localhost:${PORT}`);
-});
+module.exports = app;
