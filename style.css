@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff5f6d,#ffc371);
+    color:#222;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 10%;
+    background:white;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.navbar a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding:80px 10%;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.actions{
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    background:#ff5722;
+    color:white;
+    padding:15px 28px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn.secondary{
+    background:#333;
+}
+
+.hero-card{
+    width:420px;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
+}
+
+.hero-card input{
+    width:100%;
+    padding:15px;
+    margin:15px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.hero-card button{
+    width:100%;
+    padding:15px;
+    background:#ff5722;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.section{
+    padding:80px 10%;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
+
+.food-card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.reservation-box{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    max-width:500px;
+}
+
+.reservation-box input{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+
+.reservation-box button{
+    width:100%;
+    padding:15px;
+    background:#ff5722;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
